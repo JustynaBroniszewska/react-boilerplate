@@ -1,5 +1,5 @@
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-import { AddLiquidity } from "./AddLiquidity";
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
+import { AddLiquidity } from './AddLiquidity'
 
 export const App = () => {
   return (
@@ -10,5 +10,5 @@ export const App = () => {
         </Route>
       </Switch>
     </Router>
-  );
-};
+  )
+}
