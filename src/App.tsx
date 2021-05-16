@@ -1,12 +1,12 @@
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
-import { AddLiquidity } from './AddLiquidity'
+import { Main } from './Main'
 
 export const App = () => {
   return (
     <Router>
       <Switch>
         <Route path="/">
-          <AddLiquidity />
+          <Main />
         </Route>
       </Switch>
     </Router>
